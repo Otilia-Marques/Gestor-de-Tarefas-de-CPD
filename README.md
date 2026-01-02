@@ -7,13 +7,13 @@ O sistema foi desenvolvido com o objetivo de praticar conceitos fundamentais da 
 
 ## Funcionalidades
 
-Adicionar tarefas
+Adicionar tarefas - 
 Permite adicionar novas tarefas informando um identificador (id) e um nível de prioridade.
 
-Listar tarefas por prioridade
+Listar tarefas por prioridade - 
 Lista todas as tarefas não concluídas com prioridade igual ou superior à indicada.
 
-Marcar tarefas como concluídas
+Marcar tarefas como concluídas - 
 Permite marcar uma tarefa como concluída através do seu identificador.
 
 ## Estrutura do Projeto
@@ -38,30 +38,35 @@ complete <id>
 → Marca a tarefa com o identificador indicado como concluída.
 
 Exemplo de Uso
-Comando: new 3 tarefa1
-Nova tarefa adicionada com sucesso!
 
-Comando: new 5 tarefa2
-Nova tarefa adicionada com sucesso!
-
-Comando: list 3
-ID: tarefa2 | Prioridade: 5
-ID: tarefa1 | Prioridade: 3
-
-Comando: complete tarefa1
-Tarefa tarefa1 marcada como concluída.
+```bash
+   Comando: new 3 tarefa1
+   Nova tarefa adicionada com sucesso!
+   
+   Comando: new 5 tarefa2
+   Nova tarefa adicionada com sucesso!
+   
+   Comando: list 3
+   ID: tarefa2 | Prioridade: 5
+   ID: tarefa1 | Prioridade: 3
+   
+   Comando: complete tarefa1
+   Tarefa tarefa1 marcada como concluída.
+   ```
 
 ## Compilação e Execução
 
 Para compilar o programa, utilize um compilador C como o gcc:
 
-gcc main.c tarefa.c -o gestor_tarefas
-
+```bash
+   gcc main.c tarefa.c -o gestor_tarefas
+   ```
 
 Para executar:
 
-./gestor_tarefas
-
+```bash
+   ./gestor_tarefas
+   ```
 
 ## Observações
 
